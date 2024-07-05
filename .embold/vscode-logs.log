@@ -1,0 +1,49 @@
+2024-07-05 12:13:11 info: Congratulations, your extension "Embold" is now active!
+2024-07-05 12:13:11 info: tempDirectory : /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/temp
+2024-07-05 12:13:11 info: Extraction complete for source: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/resources/embold-scanner-archive.zip, destination: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/temp
+2024-07-05 12:13:11 info: Extension installed on machine OS : darwin
+2024-07-05 12:13:11 info: Fetched the issues from DB
+2024-07-05 12:13:11 error: request to https://v1.embold.io/api/plugins failed, reason: Failed to establish a socket connection to proxies: ["PROXY fxt1kor@bosch.com:********@localhost:3000/"]
+2024-07-05 12:13:11 info: Current installed embold extension version : 0.1.8
+2024-07-05 12:13:11 info: Latest embold extension version on marketplace : 0.1.6
+2024-07-05 12:13:11 info: Java version installed on machine : 
+java version "18.0.2.1" 2022-08-18
+Java(TM) SE Runtime Environment (build 18.0.2.1+1-1)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.2.1+1-1, mixed mode, sharing)
+
+2024-07-05 12:13:11 info: Java installed on machine.
+2024-07-05 12:13:15 info: Row(s) deleted
+2024-07-05 12:13:15 info: Row(s) deleted
+2024-07-05 12:20:22 info: Congratulations, your extension "Embold" is now active!
+2024-07-05 12:20:22 info: tempDirectory : /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/temp
+2024-07-05 12:20:22 info: Extraction complete for source: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/resources/embold-scanner-archive.zip, destination: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.8/temp
+2024-07-05 12:20:22 info: Extension installed on machine OS : darwin
+2024-07-05 12:20:22 info: Fetched the issues from DB
+2024-07-05 12:20:22 error: request to https://v1.embold.io/api/plugins failed, reason: Failed to establish a socket connection to proxies: ["PROXY fxt1kor@bosch.com:********@localhost:3000/"]
+2024-07-05 12:20:22 info: Current installed embold extension version : 0.1.8
+2024-07-05 12:20:22 info: Latest embold extension version on marketplace : 0.1.6
+2024-07-05 12:20:22 info: Java version installed on machine : 
+java version "18.0.2.1" 2022-08-18
+Java(TM) SE Runtime Environment (build 18.0.2.1+1-1)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.2.1+1-1, mixed mode, sharing)
+
+2024-07-05 12:20:22 info: Java installed on machine.
+2024-07-05 12:20:26 info: Row(s) deleted
+2024-07-05 12:20:26 info: Row(s) deleted
+2024-07-05 12:21:17 info: Row(s) deleted
+2024-07-05 12:21:37 info: Row(s) deleted
+2024-07-05 12:21:38 info: Row(s) deleted
+2024-07-05 12:23:45 info: Row(s) deleted
+2024-07-05 12:24:39 info: Row(s) deleted
+2024-07-05 12:31:27 info: Row(s) deleted
+2024-07-05 12:32:07 info: Row(s) deleted
+2024-07-05 12:52:49 info: Row(s) deleted
+2024-07-05 13:02:15 info: Row(s) deleted
+2024-07-05 13:03:17 info: Row(s) deleted
+2024-07-05 13:09:21 info: Row(s) deleted
+2024-07-05 16:00:13 info: Row(s) deleted
+2024-07-05 16:05:14 info: Row(s) deleted
+2024-07-05 16:05:14 info: Row(s) deleted
+2024-07-05 16:05:14 info: Row(s) deleted
+2024-07-05 16:05:14 info: Row(s) deleted
+2024-07-05 16:05:26 info: Row(s) deleted
