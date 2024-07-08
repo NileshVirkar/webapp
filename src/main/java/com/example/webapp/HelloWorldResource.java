@@ -54,20 +54,20 @@ public class HelloWorldResource {
         args2.add("--tags");
         args2.add("https://acellere.visualstudio.com/Java/_git/Java");
         try {
-            String output = launchCommand2(destinationDir, env, args2);
+            String output = launchCommand2(destinationDir, env, stringBuilder, args2);
             System.out.println("cmd output : " + output);
-            stringBuilder.append("cmd output : " + output);
+            stringBuilder.append("cmd output : " + output + "\n");
         } catch (Exception e) {
             System.err.println("Exception : " + e);
             stringBuilder.append("Exception : " + e);
         }
         System.out.println("--------------------------------------------");
-        stringBuilder.append("--------------------------------------------");
+        stringBuilder.append("--------------------------------------------\n");
         return stringBuilder.toString();
     }
 
-    public static String launchCommand2(java.nio.file.Path workDir, Map<String, String> envVars, List<String> args) {
-
+    public static String launchCommand2(java.nio.file.Path workDir, Map<String, String> envVars, StringBuilder stringBuilder, List<String> args) {
+    	stringBuilder.append("--------------------------------------------\n");
         List<String> cmd = null;
 
         cmd = ImmutableList.<String>builder().add("git").addAll(args).build();
@@ -112,9 +112,11 @@ public class HelloWorldResource {
 
             int code = p.waitFor();
             System.out.println("The exit code of launchCommand: {}" + code);
+        	stringBuilder.append("The exit code of launchCommand:" + code + "\n");
             if (code != 200) {
                 String msg = "code: " + code + ", " + error.get().toString();
                 System.out.println("Error:" + error.get().toString());
+            	stringBuilder.append("Error:" + error.get().toString() + "\n");
 //                LOGGER.warn("Running launchCommand -> finished with code {}, error: '{}'", code, msg);
 //                throw new GITServiceException(msg);
             }
